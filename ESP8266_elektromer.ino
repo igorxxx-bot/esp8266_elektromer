@@ -6,6 +6,9 @@
 #define _MYSQL_LOGLEVEL_ 0
 #include <MySQL_Generic.h>
 
+// HW-serial por of ESP8266 is used for IR port
+// sw-serial can not be used.
+
 // wifi-ssid,wifi-pass,servers,etc in my_settings.h
 #include <my_settings.h>
 
