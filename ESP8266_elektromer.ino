@@ -6,6 +6,7 @@
 #define _MYSQL_LOGLEVEL_ 0
 #include <MySQL_Generic.h>
 
+// wifi-ssid,wifi-pass,servers,etc in my_settings.h
 #include <my_settings.h>
 
 const char* mqtt_server = MQTT_SERV;
